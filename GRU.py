@@ -23,7 +23,7 @@ x_test = sequence.pad_sequences(x_test, maxlen=80)
 print('x_train.shape', x_train.shape)
 print('x_test.shape', x_test.shape)
 
-# Build RNN model
+# Build GRU model
 import numpy as np
 
 np.random.seed(5280)
